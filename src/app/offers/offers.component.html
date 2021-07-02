@@ -1,2 +1,8 @@
-<p>offers works!</p>
-<app-single-offer></app-single-offer>
+<div class="offers">
+    <div class="offer" *ngFor="let offer of offers; let i = index;">
+        <div class="id">{{ i }}</div>
+        <div class="content">{{ offer.content }}</div>
+        <div class="number">{{ offer.number }}</div>
+        <button class="delete">select</button>
+    </div>
+</div>
