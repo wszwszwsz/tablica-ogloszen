@@ -12,7 +12,8 @@ import { AddOfferComponent } from './add-offer/add-offer.component';
 const appRoutes: Routes = [
   {path: '', component: AppComponent },
   {path: 'offers', component: OffersComponent },
-  {path: 'offer', component: SingleOfferComponent }
+  {path: 'offer', component: SingleOfferComponent },
+  {path: 'add', component: AddOfferComponent}
 ];
 
 @NgModule({

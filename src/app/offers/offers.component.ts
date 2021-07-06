@@ -11,6 +11,8 @@ export class OffersComponent {
 
   offers = offers;
 
+
+
   // // offers!: Offer[];
 
   // constructor() { }
