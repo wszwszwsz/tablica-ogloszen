@@ -1,29 +1,34 @@
 import { Component, OnInit } from '@angular/core';
-import { Offer } from './../models/Offer';
+import { from } from 'rxjs';
+import { offers } from './../models/Offer';
+
 @Component({
   selector: 'app-offers',
   templateUrl: './offers.component.html',
   styleUrls: ['./offers.component.css']
 })
-export class OffersComponent implements OnInit {
+export class OffersComponent {
 
-  offers!: Offer[];
+  offers = offers;
 
-  constructor() { }
+  // // offers!: Offer[];
 
-  ngOnInit(): void {
-    this.offers = [
-      {
-        content: 'First offer',
-        number: '555 555 555',
-        completed: false
-      },
-      {
-        content: 'Second offer',
-        number: '120 120 120',
-        completed: true
-      }
-    ]
-  }
+  // constructor() { }
+ 
+  // ngOnInit(): void {
+  //   // this.offers = [
+  //   //   {
+  //   //     name
+  //   //     content: 'First offer',
+  //   //     phone: '555 555 555'
+        
+  //   //   },
+  //   //   {
+  //   //     content: 'Second offer',
+  //   //     number: '120 120 120',
+  //   //     added: true
+  //   //   }
+  //   // ]
+  // }
 
 }
