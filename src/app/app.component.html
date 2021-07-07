@@ -3,12 +3,16 @@
   <header>
     <h1>Lista ogłoszeń</h1>
   </header>
+
   <body>
-  <button><a class="btn" routerLink="/offers">Oferty</a></button>
-  <button><a class="btn" routerLink="/add">Dodaj Oferte</a></button>
-  <router-outlet>
-  </router-outlet>
+    <button><a class="btn" routerLink="/offers">Oferty</a></button>
+    <button><a class="btn" routerLink="/add">Dodaj Oferte</a></button>
+    <button><a class="btn" routerLink="/selected">Wybrane oferty</a></button>
+    <button><a class="btn" routerLink="/accepted">Zaakceptowane oferty</a></button>
+    <router-outlet>
+    </router-outlet>
   </body>
+
   <footer>
     <app-footer></app-footer>
   </footer>

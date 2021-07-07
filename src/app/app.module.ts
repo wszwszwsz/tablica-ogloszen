@@ -8,12 +8,15 @@ import { SelectedOfferComponent } from './selected-offer/selected-offer.componen
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AddOfferComponent } from './add-offer/add-offer.component';
+import { AcceptedOfferComponent } from './accepted-offer/accepted-offer.component';
 
 const appRoutes: Routes = [
   {path: '', component: AppComponent },
   {path: 'offers', component: OffersComponent },
   {path: 'offer', component: SingleOfferComponent },
-  {path: 'add', component: AddOfferComponent}
+  {path: 'add', component: AddOfferComponent},
+  {path: 'selected', component: SelectedOfferComponent},
+  {path: 'accepted', component: AcceptedOfferComponent}
 ];
 
 @NgModule({
@@ -23,7 +26,8 @@ const appRoutes: Routes = [
     SingleOfferComponent,
     SelectedOfferComponent,
     FooterComponent,
-    AddOfferComponent
+    AddOfferComponent,
+    AcceptedOfferComponent
   ],
   imports: [
     BrowserModule,

@@ -18,19 +18,19 @@ export class OffersComponent {
   // constructor() { }
  
   // ngOnInit(): void {
-  //   // this.offers = [
-  //   //   {
-  //   //     name
-  //   //     content: 'First offer',
-  //   //     phone: '555 555 555'
-        
-  //   //   },
-  //   //   {
-  //   //     content: 'Second offer',
-  //   //     number: '120 120 120',
-  //   //     added: true
-  //   //   }
-  //   // ]
+  //   this.offers = [
+  //     {
+  //       id: 3,
+  //       name: 'Wynajmę pieski',
+  //       content: 'mam do wynajecia troche piesków, zainteresowanych proszę o kontakt :) ',
+  //       phone: '555 555 555'
+  //   },
+  //   {
+  //       id: 4,
+  //       name: 'Sprzedam opla',
+  //       content: 'Mam do sprzedania prawie nowego opla, za jedyne 50k, proszę o kontakt ',
+  //       phone: '232 323 232'
+  //   }]
   // }
 
 }
