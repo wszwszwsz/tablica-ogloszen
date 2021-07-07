@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { offers } from './../models/Offer';
+import { Offer } from './../models/Offer';
 
 @Component({
   selector: 'app-single-offer',
@@ -7,7 +7,6 @@ import { offers } from './../models/Offer';
   styleUrls: ['./single-offer.component.css']
 })
 export class SingleOfferComponent implements OnInit {
-  offers = offers;
   constructor() { }
   
   ngOnInit(): void {

@@ -1,1 +1,24 @@
-<p>Dodaj wlasna oferte :)</p>
+<div class="add">
+    <form (submit)="addOffer()">
+        <input 
+            type="text"
+            name="name"
+            placeholder="wpisz nazwe oferty"
+            [(ngModel)]="addOfferName"
+        />
+        <input
+            type="text"
+            name="content"
+            placeholder="wpisz tesc oferty"
+            [(ngModel)]="addOfferContent"
+        />
+        <input
+            type="text"
+            name="phone"
+            placeholder="wpisz numer kontaktowy"
+            [(ngModel)]="addOfferPhone"
+        />
+        <p></p>
+        <input type="submit" value="Dodaj oferte" class="offer-submit"> 
+    </form>
+</div>
